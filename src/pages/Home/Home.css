@@ -1,0 +1,16 @@
+.banner {
+	background: url('../../assets/pages/banner.png');
+	margin: 0;
+	width: 100vw;
+	height: calc(100vh - 100px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: center 0;
+}
+
+

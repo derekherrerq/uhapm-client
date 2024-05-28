@@ -1,0 +1,47 @@
+.fourOfour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourOfour h1 {
+    display: inline;
+    font-size: 15em;
+    color: #ED2481;
+}
+
+.return {
+    text-align: center;
+}
+.return p {
+    text-align: center;
+    color: #ccc;
+  }
+
+ .return a {
+    text-decoration: none;
+    margin: auto;
+	background-color: #ED2481;
+  	padding: .6em;
+    color: #ffeff3;
+  	text-align: center;
+  	display: block;
+	border-radius: 5px;
+}
+
+.return button {
+    border: none;
+    background: none;
+}
+
+@media (max-width: 400px) {
+    .fourOfour h1 {
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 500px) {
+    .fourOfour h1 {
+        font-size: 7em;
+    }
+}
