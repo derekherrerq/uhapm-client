@@ -14,9 +14,15 @@ This is the Frontend & Backend for the [UH APM Website](uhapm.org).
   - [Yarn](https://yarnpkg.com/getting-started/install) 
 
 - ## Installation
-  - Install dependencies: `yarn`
+For the UI
+  - Install dependencies: `yarn install`
   - Start local server: `yarn start`
   - The local server will start on [http://localhost:3000](http://localhost:3000)
+
+For the express server
+  - `cd server .\server\`
+  - Install dependencies: `npm install`
+  - Start local server: `nodemon app.js`
 
 - ## Project Structure
   - Static data is in `src/data/`
