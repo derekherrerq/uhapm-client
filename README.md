@@ -13,9 +13,8 @@ This is the Frontend & Backend for the [UH APM Website](uhapm.org).
   - [NodeJS](https://nodejs.org/en/)
 
 - ## Installation
-For the UI
-  - Install dependencies: `npm install`
-  - Start local server: `npm start`
+  - Install dependencies: `yarn`
+  - Start local server: `yarn start`
   - The local server will start on [http://localhost:3000](http://localhost:3000)
 
 For the express server
