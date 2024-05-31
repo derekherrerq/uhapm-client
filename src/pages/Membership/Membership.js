@@ -1,6 +1,9 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import placeholder from '../../assets/pages/placeholder.svg';
+import networking from '../../assets/pages/professional-networking.svg';
+import workshops from '../../assets/pages/workshops.svg';
+import alumni from '../../assets/pages/alumni-network.svg';
+import socials from '../../assets/pages/socials.svg';
 import { MetaData } from '../../components/Meta/MetaData';
 import './Membership.css';
 
@@ -16,12 +19,12 @@ const Membership = () => {
 			<MetaData {...meta} />
 			<Container fluid className='contained hero hero-membership'>
 				<Row>
-					<Col md='6' className='order-md-2'>
+					<Col md='6' className='order-md-2 order-1'>
 						<Container
 							fluid
-							style={{ textAlign: 'center', marginBottom: '-30rem' }}
+							style={{ textAlign: 'center', paddingBottom: '-30rem' }}
 						>
-							<h1 style={{ textAlign: 'center', marginBottom: '0rem' }}>
+							<h1 style={{ textAlign: 'center', paddingBottom: '0rem' }}>
 								Benefits
 							</h1>
 							<Row className='benefits' md={12} xs={12}>
@@ -32,7 +35,7 @@ const Membership = () => {
 												<Card.Body>
 													<div>
 														<img
-															src={placeholder}
+															src={networking}
 															style={{
 																height: '10em',
 																width: '9em',
@@ -56,7 +59,7 @@ const Membership = () => {
 												<Card.Body>
 													<div>
 														<img
-															src={placeholder}
+															src={workshops}
 															alt='undraw'
 															style={{
 																height: '10em',
@@ -80,7 +83,7 @@ const Membership = () => {
 												<Card.Body>
 													<div>
 														<img
-															src={placeholder}
+															src={alumni}
 															alt='undraw'
 															style={{
 																height: '10em',
@@ -102,7 +105,7 @@ const Membership = () => {
 												<Card.Body>
 													<div>
 														<img
-															src={placeholder}
+															src={socials}
 															alt='undraw'
 															style={{
 																height: '10em',
@@ -141,9 +144,9 @@ const Membership = () => {
 									various industries.
 								</p>
 								<p>
-									Memberships are priced at $35 for a full year or $20 for a
-									semester. If you have any questions regarding membership,
-									contact operationsmanager@uhapm.org.
+									Memberships are priced at <b>$35 for a full year</b> or{' '}
+									<b>$20 for a semester.</b> If you have any questions regarding
+									membership, contact operations.manager@uhapm.org.
 								</p>
 							</div>
 						</div>

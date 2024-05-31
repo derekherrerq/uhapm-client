@@ -15,16 +15,8 @@
 {
 	max-width: 100%;
 	height: auto;
-	margin-left: 100px;
-}
-
-.lead-text {
-	margin-right: 100px;
-}
-
-.hero-about h1 {
-	text-align: left;
-	margin-right: 100px;
+	padding-left: 75px;
+	padding-right: 75px;
 }
 
 .hero-about .row {
@@ -33,6 +25,8 @@
 
 .heading {
 	color:black;
+	padding-top: 100px;
+	text-align: center;
 }
 
 .officers-grid {
@@ -42,7 +36,7 @@
 }
 
 .sponsor-wrapper div[class^='col-md'] {
-	margin-bottom: 70px;
+	padding-bottom: 70px;
 }
 
 .sponsor-logos {
@@ -87,7 +81,7 @@
 	}
 
 	.hero-about .col-md-6:nth-child(1) {
-		margin-bottom: 50px;
+		padding-bottom: 50px;
 	}
 
 	.hero-about img {
@@ -100,7 +94,7 @@
 	}
 
 	.partners-wrapper .col-md-6 {
-		margin-bottom: 50px;
+		padding-bottom: 50px;
 	}
 }
 

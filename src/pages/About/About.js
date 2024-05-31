@@ -32,13 +32,15 @@ const About = () => {
 					<Col md='6' className='order-md-1'>
 						<div className='about-us'>
 							<h1>About Us</h1>
-							<p className='lead-text'>
+							<p className='lead-text' style={{ marginBottom: '1rem' }}>
 								The Association of Product Managers is an organization dedicated
 								to promoting the concept of Product, Project, and Program
 								Management. Our mission is to provide opportunities for
 								individuals to enter and thrive in this career path whether that
-								be in Tech, Accounting & Finance, etc. Looking to sponsor us?
-								Reach out at corporatemanager@uhapm.org.
+								be in Tech, Accounting, Finance, etc.
+							</p>
+							<p className='lead-text'>
+								Looking to sponsor us? Reach out to corporate.manager@uhapm.org.{' '}
 							</p>
 						</div>
 					</Col>
@@ -46,12 +48,8 @@ const About = () => {
 			</Container>
 
 			<Suspense fallback={<Loading />}>
-				<Container
-					fluid
-					className='contained sub-section'
-					style={{ textAlign: 'center', marginBottom: '0rem' }}
-				>
-					<h2 className='heading'>Meet our Officers</h2>
+				<Container fluid className='contained sub-section'>
+					<h1 className='heading'>Meet our Officers</h1>
 					<div className='officers-grid'>
 						{officers.map(
 							(officer) =>

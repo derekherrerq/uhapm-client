@@ -1,0 +1,10 @@
+.events {
+    display: grid;
+    place-items: center;
+}
+
+iframe {
+	width: 75vw;
+	height: calc(100vh - 300px);
+    margin: 0 auto
+}
