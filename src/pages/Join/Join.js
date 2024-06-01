@@ -16,8 +16,6 @@ const Membership = () => {
 			<iframe
 				title='Join Form'
 				src='https://docs.google.com/forms/d/e/1FAIpQLSdMZi_1DshKgzu6Of9AJOQpfSdCwGeanaKy89YH_jOJbTQ49w/viewform?embedded=true'
-				width='1280'
-				height='1335'
 			>
 				Loading…
 			</iframe>
