@@ -16,21 +16,21 @@
 h2 {
 	color: white;
 	text-shadow: -1px -1px 0 #1E0E44, 1px -1px 0 #1E0E44, -1px 1px 0 #1E0E44, 1px 1px 0 #1E0E44;
-	margin-bottom: 15px; 
+	margin-bottom: 0rem; 
 	font-size: calc(8vw + 2vh);
 	text-align: center;
 }
 
 h3 {
 	color: white;
-	margin-bottom: 50px; 
+	margin-bottom: 3rem; 
+	margin-top: 1rem;
 	text-align: center;
 	font-size: calc(2vw + 2vh);
 }
 
 h4 {
 	color: white;
-	margin-bottom: 50px; 
 	text-align: center;
 	font-size: calc(1vw + 2vh);
 }
