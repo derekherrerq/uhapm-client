@@ -28,7 +28,7 @@
     "eject": "craco eject",
     "eslint-check": "eslint src/",
     "eslint-fix": "eslint src/**/*.js --fix",
-    "now-build": "craco build"
+    "now-build": "npm install --legacy-peer-deps && craco build"
   },
   "browserslist": {
     "production": [
