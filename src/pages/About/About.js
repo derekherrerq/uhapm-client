@@ -40,7 +40,7 @@ const About = () => {
 								be in Tech, Accounting, Finance, etc.
 							</p>
 							<p className='lead-text'>
-								Looking to sponsor us? Reach out to corporate.manager@uhapm.org.{' '}
+								Looking to sponsor us? Reach out to corporate.manager@uhapm.org{' '}
 							</p>
 						</div>
 					</Col>
