@@ -37,7 +37,7 @@ const About = () => {
 								to promoting the concept of Product, Project, and Program
 								Management. Our mission is to provide opportunities for
 								individuals to enter and thrive in this career path whether that
-								be in Tech, Accounting, Finance, etc.
+								be in Tech, Engineering, Business, etc.
 							</p>
 							<p className='lead-text'>
 								Looking to sponsor us? Reach out to corporate.manager@uhapm.org{' '}
