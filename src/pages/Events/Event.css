@@ -1,10 +1,22 @@
 .events {
     display: grid;
     place-items: center;
+    animation: fade-up 3s;
 }
 
 iframe {
 	width: 75vw;
 	height: calc(100vh - 300px);
     margin: 0 auto
+}
+
+@keyframes fade-up {
+	0% {
+		opacity: 0;
+		transform: translateY(30px) scale(0.9);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px) scale(1);
+	}
 }

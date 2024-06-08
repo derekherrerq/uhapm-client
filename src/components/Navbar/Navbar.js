@@ -33,7 +33,7 @@ const NavBar = () => {
 					<ActiveListItem url='/about' name='About' />
 					<ActiveListItem url='/events' name='Events' />
 					<ActiveListItem url='/membership' name='Membership' />
-					<LinkContainer to='/join'>
+					<LinkContainer to='/register'>
 						<Nav.Link>
 							<button className='button'>Register</button>
 						</Nav.Link>

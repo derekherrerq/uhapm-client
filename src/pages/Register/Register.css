@@ -1,12 +1,13 @@
-.benefits {
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  }
+.form {
+  display: grid;
+  place-items: center;
+  animation: fade-up 3s;
+}
 
-.hero-membership {
-	animation: fade-up 3s;
+iframe {
+	width: 75vw;
+	height: calc(100vh - 300px);
+    margin: 0 auto
 }
 
 @keyframes fade-up {

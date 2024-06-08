@@ -57,6 +57,13 @@
 	text-align: center;
 }
 
+.hero-about {
+	animation: fade-up 3s;
+}
+
+.sub-section {
+	animation: fade-up 3s;
+}
 
 @media (max-width: 1296px) {
 	.officers-grid {
@@ -101,5 +108,16 @@
 @media (max-width: 575px) {
 	.officers-grid {
 		gap: 1em;
+	}
+}
+
+@keyframes fade-up {
+	0% {
+		opacity: 0;
+		transform: translateY(30px) scale(0.9);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px) scale(1);
 	}
 }
