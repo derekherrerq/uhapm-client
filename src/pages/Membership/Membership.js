@@ -146,7 +146,7 @@ const Membership = () => {
 								<p>
 									Memberships are priced at <b>$35 for a full year</b> or{' '}
 									<b>$20 for a semester.</b> If you have any questions regarding
-									membership, contact operations.manager@uhapm.org.
+									membership, contact operations.manager@uhapm.org
 								</p>
 							</div>
 						</div>
