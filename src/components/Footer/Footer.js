@@ -21,7 +21,7 @@ const Footer = () => {
 				<Nav className='social-icons'>
 					<Nav.Item>
 						<Nav.Link
-							href='https://www.linkedin.com/company/apm-uh/'
+							href='https://www.linkedin.com/company/uh-apm/'
 							target='_blank'
 							rel='nofollow noopener'
 						>
