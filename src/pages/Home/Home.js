@@ -13,12 +13,7 @@ const Home = () => {
 		<>
 			<MetaData {...meta}></MetaData>
 			<div className='banner'>
-				<div className='main-text'>
-					<h2>Association of</h2>
-					<h2>Product Managers</h2>
-					<h3>Innovate. Collaborate. Elevate.</h3>
-					<h4>Est. 2024 | University of Houston</h4>
-				</div>
+				<div className='textbanner'></div>
 			</div>
 		</>
 	);
