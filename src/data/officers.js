@@ -1,11 +1,10 @@
 import Placeholder from '../assets/officers/Placeholder.jpg';
-
 // import RudolfJordanFall2024 from '../assets/officers/fall2024/Rudolf-Jordan.png';
-// import CharlizeTranFall2024 from '../assets/officers/fall2024/Charlize-Tran.png';
-// import AustinNguyenFall2024 from '../assets/officers/fall2024/Austin-Nguyen.png';
 // import DerekHerreraFall2024 from '../assets/officers/fall2024/Derek-Herrera.jpg';
+// import AustinNguyenFall2024 from '../assets/officers/fall2024/Austin-Nguyen.png';
 // import SavannaPierceShimomuraFall2024 from '../assets/officers/fall2024/Savanna-Pierce-Shimomura.png';
-// import AngelaDangFall2024 from '../assets/officers/fall2024/Angela-Dang.png';
+// import AllisonOsuagwuFall2024 from '../assets/officers/fall2024/Allison-Osuagwu.png';
+// import PayalNaikFall2024 from '../assets/officers/fall2024/Payal-Naik.png';
 
 export const officersFall2024 = [
 	{
@@ -19,11 +18,11 @@ export const officersFall2024 = [
 		show: true,
 	},
 	{
-		id: 1,
-		name: 'Charlize Tran',
+		id: 3,
+		name: 'Derek Herrera',
 		image: Placeholder,
-		linkedin: 'https://www.linkedin.com/in/charlize-tran/',
-		email: 'mailto:president@uhapm.org',
+		linkedin: 'https://www.linkedin.com/in/derekherrerq/',
+		email: 'mailto:vice-president@uhapm.org',
 		title: 'Vice President',
 		open: false,
 		show: true,
@@ -39,16 +38,6 @@ export const officersFall2024 = [
 		show: true,
 	},
 	{
-		id: 3,
-		name: 'Derek Herrera',
-		image: Placeholder,
-		linkedin: 'https://www.linkedin.com/in/derekherrerq/',
-		email: 'mailto:executive.officer@uhapm.org',
-		title: 'Operations Manager',
-		open: false,
-		show: true,
-	},
-	{
 		id: 4,
 		name: 'Savanna Pierce-Shimomura',
 		image: Placeholder,
@@ -59,10 +48,20 @@ export const officersFall2024 = [
 		show: true,
 	},
 	{
-		id: 5,
-		name: 'Angela Dang',
+		id: 4,
+		name: 'Allison Osuagwu',
 		image: Placeholder,
-		linkedin: 'https://www.linkedin.com/in/angelatdang/',
+		linkedin: 'https://www.linkedin.com/in/allison-osuagwu-4901ab257/',
+		email: 'mailto:executive.officer@uhapm.org',
+		title: 'Human Resources Manager',
+		open: false,
+		show: true,
+	},
+	{
+		id: 5,
+		name: 'Payal Naik',
+		image: Placeholder,
+		linkedin: 'https://www.linkedin.com/in/payal-naik03/',
 		email: 'mailto:executive.officer@uhapm.org',
 		title: 'Marketing Manager',
 		open: false,
