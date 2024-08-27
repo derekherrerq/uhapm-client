@@ -1,7 +1,9 @@
 .form {
-  display: grid;
-  place-items: center;
-  animation: fade-up 3s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	animation: fade-up 3s;
 }
 
 iframe {
