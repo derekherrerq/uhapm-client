@@ -6,6 +6,15 @@ h1 {
 	color: black;
 }
 
+.container-fluid h1, .sponsor-wrapper h1, .about-wrapper h1 {
+    padding: 0 !important; /* Ensure no unintended padding is applied */
+    margin: 0px 0 20px 0 !important; /* Top margin: 0px, Bottom margin: 20px */
+    text-align: center;
+    font-size: 3rem; /* Adjust the font size if necessary */
+    font-weight: bold;
+    color: black;
+}
+
 .form {
 	display: flex;
 	justify-content: center;
