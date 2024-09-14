@@ -13,6 +13,7 @@ const Membership = lazy(() => import('./pages/Membership/Membership'));
 const Events = lazy(() => import('./pages/Events/Events'));
 const Home = lazy(() => import('./pages/Home/Home'));
 const Register = lazy(() => import('./pages/Register/Register'));
+const Sponsors = lazy(() => import('./pages/Sponsors/Sponsors'));
 const NotFound = lazy(() => import('./pages/NotFound/NotFound'));
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => {
 					<Routes>
 						<Route path='/' element={<Home />} />
 						<Route path='/about' element={<About />} />
+						<Route path='/sponsors' element={<Sponsors />} />
 						<Route path='/register' element={<Register />} />
 						<Route path='/events' element={<Events />} />
 						<Route path='/membership' element={<Membership />} />

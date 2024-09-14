@@ -1,7 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import aboutpic from '../../assets/pages/about.svg';
-import deloitte from '../../assets/sponsor-logos/deloitte.jpg';
 import { officersFall2024 } from '../../data/officers';
 import { MetaData } from '../../components/Meta/MetaData';
 import './About.css';
@@ -58,26 +57,6 @@ const About = () => {
 					</div>
 				</Container>
 			</Suspense>
-			<Container fluid className='contained sponsor-wrapper sub-section'>
-				<Row>
-					<Col md='12'>
-						<h1 className='heading'>Sponsors</h1>
-						<div className='sponsor-logos'>
-							<a
-								href='https://www.deloitte.com/global/en/services/consulting.html'
-								target='_blank'
-								rel='noreferrer'
-							>
-								<img
-									src={deloitte}
-									className='sponsor-logo'
-									alt='Deloitte Logo'
-								/>
-							</a>
-						</div>
-					</Col>
-				</Row>
-			</Container>
 		</>
 	);
 };
