@@ -3,6 +3,8 @@
 	background: #ffffff !important;
 	    display: flex;
     justify-content: space-between;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .col > img {
@@ -21,6 +23,7 @@
 
 .hero-about .row {
 	align-items: center;
+	margin-bottom: 0;
 }
 
 .heading {
