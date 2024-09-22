@@ -6,7 +6,7 @@ import Loading from '../../components/Loading/Loading';
 const Register = () => {
 	const meta = {
 		title: 'Register - APM',
-		desc: 'Register for our organization!',
+		desc: 'Register for our organization!.',
 		url: 'https://uhapm.org/register',
 	};
 
@@ -14,12 +14,11 @@ const Register = () => {
 		<div className='form'>
 			<MetaData {...meta} />
 			<iframe
-				title='APM Feedback Form'
-				src='https://i2ywfzisu40.typeform.com/to/x6pDxcma'
-				width='100%'
-				height='500px'
-				style={{ border: 'none' }}
-			></iframe>
+				title='Register Form'
+				src='https://docs.google.com/forms/d/e/1FAIpQLSdMZi_1DshKgzu6Of9AJOQpfSdCwGeanaKy89YH_jOJbTQ49w/viewform?embedded=true'
+			>
+				Loading…
+			</iframe>
 			<Suspense fallback={<Loading />}></Suspense>
 		</div>
 	);
