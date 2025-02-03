@@ -28,7 +28,7 @@ export const officersFall2024 = [
 	},
 	{
 		id: 2,
-		name: 'BrandonLe',
+		name: 'Brandon Le',
 		image: BrandonLe,
 		linkedin: 'https://www.linkedin.com/in/branle/',
 		email: 'mailto:corporate.manager@uhapm.org',
