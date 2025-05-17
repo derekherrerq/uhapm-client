@@ -1,61 +1,61 @@
 import React, { Suspense } from 'react';
 import { MetaData } from '../../components/Meta/MetaData';
-import './Sponsors.css';
+import './Partners.css';
 import Loading from '../../components/Loading/Loading';
-import deloitte from '../../assets/sponsor-logos/deloitte.jpg';
-import microsoft from '../../assets/sponsor-logos/microsoft.png';
-import apple from '../../assets/sponsor-logos/apple.png';
-import hp from '../../assets/sponsor-logos/hp.png';
-import capitalone from '../../assets/sponsor-logos/capital-one.png';
-import americanexpress from '../../assets/sponsor-logos/american-express.png';
-import umbrage from '../../assets/sponsor-logos/umbrage.png';
-import procore from '../../assets/sponsor-logos/procore.png';
-import bakertilly from '../../assets/sponsor-logos/bakertilly.png';
+import deloitte from '../../assets/partner-logos/deloitte.jpg';
+import microsoft from '../../assets/partner-logos/microsoft.png';
+import apple from '../../assets/partner-logos/apple.png';
+import hp from '../../assets/partner-logos/hp.png';
+import capitalone from '../../assets/partner-logos/capital-one.png';
+import americanexpress from '../../assets/partner-logos/american-express.png';
+import umbrage from '../../assets/partner-logos/umbrage.png';
+import procore from '../../assets/partner-logos/procore.png';
+import bakertilly from '../../assets/partner-logos/bakertilly.png';
 import { Container, Row, Col } from 'react-bootstrap';
 
-const Sponsors = () => {
+const Partners = () => {
 	const meta = {
-		title: 'Sponsors - APM',
-		desc: 'Sponsors for our organization!',
-		url: 'https://uhapm.org/sponsors',
+		title: 'Partners - APM',
+		desc: 'Partner with our organization!',
+		url: 'https://uhapm.org/partners',
 	};
 
 	return (
 		<div className='form'>
 			<MetaData {...meta} />
 
-			{/* Become a Sponsor Section */}
+			{/* Become a Partner Section */}
 			<Container
 				fluid
 				className='contained about-wrapper sub-section section-spacing'
 			>
 				<Row className='justify-content-center'>
 					<Col md='8' className='text-center'>
-						<div className='sponsor-us'>
-							<h1 className='heading'>Become a Sponsor!</h1>
+						<div className='partner-us'>
+							<h1 className='heading'>Become a Partner!</h1>
 							<p className='lead-text' style={{ marginBottom: '1rem' }}>
-								By sponsoring APM, your organization gains the opportunity to
-								connect with students early in their careers, helping you build
-								strong, lasting relationships.
+								By partnering with APM, your organization gains the opportunity
+								to connect with students early in their careers, helping you
+								build build strong, lasting relationships.
 							</p>
 							<p className='lead-text'>
-								If you&apos;re interested in sponsoring, reach out to
-								corporate.manager@uhapm.org for more information!
+								If you&apos;re interested in partnering, reach out to
+								president.uhapm@gmail.com for more information!
 							</p>
 						</div>
 					</Col>
 				</Row>
 			</Container>
 
-			{/* Sponsors Section */}
+			{/* Event Partners Section */}
 			<Container
 				fluid
-				className='contained sponsor-wrapper sub-section section-spacing'
+				className='contained partner-wrapper sub-section section-spacing'
 			>
 				<Row>
 					<Col md='12'>
-						<h1 className='heading'>Sponsors</h1>
-						<div className='sponsor-grid'>
+						<h1 className='heading'>Event Partners</h1>
+						<div className='partner-grid'>
 							<a
 								href='https://www.deloitte.com/global/en/services/consulting.html'
 								target='_blank'
@@ -63,7 +63,7 @@ const Sponsors = () => {
 							>
 								<img
 									src={deloitte}
-									className='sponsor-logo'
+									className='partner-logo'
 									alt='Deloitte Logo'
 								/>
 							</a>
@@ -74,37 +74,23 @@ const Sponsors = () => {
 							>
 								<img
 									src={microsoft}
-									className='sponsor-logo'
+									className='partner-logo'
 									alt='Microsoft Logo'
 								/>
 							</a>
-						</div>
-					</Col>
-				</Row>
-			</Container>
-
-			{/* Event Partners Section */}
-			<Container
-				fluid
-				className='contained sponsor-wrapper sub-section section-spacing'
-			>
-				<Row>
-					<Col md='12'>
-						<h1 className='heading'>Event Partners</h1>
-						<div className='sponsor-grid'>
 							<a
 								href='https://www.apple.com/careers/us/'
 								target='_blank'
 								rel='noreferrer'
 							>
-								<img src={apple} className='sponsor-logo' alt='Apple Logo' />
+								<img src={apple} className='partner-logo' alt='Apple Logo' />
 							</a>
 							<a
 								href='https://jobs.hp.com/us/'
 								target='_blank'
 								rel='noreferrer'
 							>
-								<img src={hp} className='sponsor-logo' alt='HP Logo' />
+								<img src={hp} className='partner-logo' alt='HP Logo' />
 							</a>
 							<a
 								href='https://www.capitalonecareers.com'
@@ -113,7 +99,7 @@ const Sponsors = () => {
 							>
 								<img
 									src={capitalone}
-									className='sponsor-logo'
+									className='partner-logo'
 									alt='Capital One Logo'
 								/>
 							</a>
@@ -124,7 +110,7 @@ const Sponsors = () => {
 							>
 								<img
 									src={americanexpress}
-									className='sponsor-logo'
+									className='partner-logo'
 									alt='American Express Logo'
 								/>
 							</a>
@@ -135,7 +121,7 @@ const Sponsors = () => {
 							>
 								<img
 									src={umbrage}
-									className='sponsor-logo'
+									className='partner-logo'
 									alt='Umbrage Logo'
 								/>
 							</a>
@@ -146,7 +132,7 @@ const Sponsors = () => {
 							>
 								<img
 									src={procore}
-									className='sponsor-logo'
+									className='partner-logo'
 									alt='Procore Logo'
 								/>
 							</a>
@@ -157,7 +143,7 @@ const Sponsors = () => {
 							>
 								<img
 									src={bakertilly}
-									className='sponsor-logo'
+									className='partner-logo'
 									alt='BakerTilly Logo'
 								/>
 							</a>
@@ -171,4 +157,4 @@ const Sponsors = () => {
 	);
 };
 
-export default Sponsors;
+export default Partners;

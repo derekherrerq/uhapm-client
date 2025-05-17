@@ -6,7 +6,7 @@ h1 {
 	color: black;
 }
 
-.container-fluid h1, .sponsor-wrapper h1, .about-wrapper h1 {
+.container-fluid h1, .partner-wrapper h1, .about-wrapper h1 {
     padding: 0 !important; /* Ensure no unintended padding is applied */
     margin: 0px 0 20px 0 !important; /* Top margin: 0px, Bottom margin: 20px */
     text-align: center;
@@ -40,7 +40,7 @@ h1 {
     padding-bottom: 0px;
 }
 
-.sponsor-grid {
+.partner-grid {
     display: flex;
     justify-items: center;
     align-items: center;
@@ -50,12 +50,12 @@ h1 {
 	justify-content: center;
 }
 
-.sponsor-grid a {
+.partner-grid a {
     margin: 0; 
     padding: 0;
 }
 
-.sponsor-logo {
+.partner-logo {
     max-width: 200px; 
     height: auto; 
     transition: transform 0.3s ease; 
@@ -64,23 +64,23 @@ h1 {
     opacity: 1 !important;
 }
 
-.sponsor-logo:hover {
+.partner-logo:hover {
     transform: scale(1.1); 
 }
 
 @media (max-width: 768px) {
-    .sponsor-logo {
+    .partner-logo {
         max-width: 150px; 
     }
 }
 
 @media (max-width: 480px) {
-    .sponsor-logo {
+    .partner-logo {
         max-width: 100px; 
     }
 }
 
-.sponsor-wrapper {
+.partner-wrapper {
     margin-top: 2.5rem; /* Adjust the top margin as needed */
 	margin-bottom: 0rem; /* Adjust the top margin as needed */
 }
