@@ -4,8 +4,9 @@ import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/pages/logo.png';
 import ig from '../../assets/icons/instagram.webp';
-import ds from '../../assets/icons/discord.webp';
 import li from '../../assets/icons/linkedin.webp';
+import gm from '../../assets/icons/groupme.webp';
+// import ds from '../../assets/icons/discord.webp';
 
 const Footer = () => {
 	return (
@@ -39,11 +40,11 @@ const Footer = () => {
 					</Nav.Item>
 					<Nav.Item>
 						<Nav.Link
-							href='https://discord.gg/x93VgAMZvq'
+							href='https://groupme.com/join_group/105014307/bsxMGCbE'
 							target='_blank'
 							rel='nofollow noopener'
 						>
-							<img src={ds} alt='Discord Icon' />
+							<img src={gm} alt='GroupMe Icon' />
 						</Nav.Link>
 					</Nav.Item>
 				</Nav>

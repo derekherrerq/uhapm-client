@@ -1,9 +1,10 @@
 import DerekHerrera from '../assets/officers/Derek-Herrera.png';
 import AmberKaul from '../assets/officers/Amber-Kaul.png';
-import BrandonLe from '../assets/officers/Brandon-Le.png';
-import SavannaPierceShimomura from '../assets/officers/Savanna-Pierce-Shimomura.png';
+import OyinOjo from '../assets/officers/Oyin-Ojo.JPG';
 import AllisonOsuagwu from '../assets/officers/Allison-Osuagwu.png';
 import PayalNaik from '../assets/officers/Payal-Naik.png';
+
+import placeholder from '../assets/officers/Placeholder.jpg';
 
 export const officersFall2024 = [
 	{
@@ -11,7 +12,7 @@ export const officersFall2024 = [
 		name: 'Derek Herrera',
 		image: DerekHerrera,
 		linkedin: 'https://www.linkedin.com/in/derekherrerq/',
-		email: 'mailto:president@uhapm.org',
+		email: 'mailto:president.uhapm@gmail.com',
 		title: 'President',
 		open: false,
 		show: true,
@@ -21,28 +22,28 @@ export const officersFall2024 = [
 		name: 'Amber Kaul',
 		image: AmberKaul,
 		linkedin: 'https://www.linkedin.com/in/amberkaul/',
-		email: 'mailto:vice-president@uhapm.org',
+		email: 'mailto:president.uhapm@gmail.com',
 		title: 'Vice President',
 		open: false,
 		show: true,
 	},
 	{
 		id: 2,
-		name: 'Brandon Le',
-		image: BrandonLe,
-		linkedin: 'https://www.linkedin.com/in/branle/',
-		email: 'mailto:corporate.manager@uhapm.org',
-		title: 'Corporate Manager',
+		name: 'Oyinkansola Ojo',
+		image: OyinOjo,
+		linkedin: 'https://www.linkedin.com/in/oyinkansola-ojo-4100b323b/',
+		email: 'mailto:corporate.uhapm@gmail.com',
+		title: 'Corporate Director',
 		open: false,
 		show: true,
 	},
 	{
 		id: 3,
-		name: 'Savanna Pierce-Shimomura',
-		image: SavannaPierceShimomura,
-		linkedin: 'https://www.linkedin.com/in/savanna-pierce-shimomura-51b127206/',
-		email: 'mailto:finance.manager@uhapm.org',
-		title: 'Finance Manager',
+		name: 'Mostaque Tahamid',
+		image: placeholder,
+		linkedin: 'https://www.linkedin.com/in/mostaquetahamid/',
+		email: 'mailto:finance.uhapm@gmail.com',
+		title: 'Finance Director',
 		open: false,
 		show: true,
 	},
@@ -51,8 +52,8 @@ export const officersFall2024 = [
 		name: 'Allison Osuagwu',
 		image: AllisonOsuagwu,
 		linkedin: 'https://www.linkedin.com/in/allison-osuagwu-4901ab257/',
-		email: 'mailto:executive.officer@uhapm.org',
-		title: 'Human Resources Manager',
+		email: 'mailto:executive.uhapm@gmail.com',
+		title: 'Human Resources Director',
 		open: false,
 		show: true,
 	},
@@ -61,8 +62,8 @@ export const officersFall2024 = [
 		name: 'Payal Naik',
 		image: PayalNaik,
 		linkedin: 'https://www.linkedin.com/in/payal-naik03/',
-		email: 'mailto:executive.officer@uhapm.org',
-		title: 'Marketing Manager',
+		email: 'mailto:executive.uhapm@gmail.com',
+		title: 'Marketing Director',
 		open: false,
 		show: true,
 	},
