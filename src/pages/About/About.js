@@ -40,8 +40,11 @@ const About = () => {
 								be in Tech, Engineering, Business, etc.
 							</p>
 							<p className='lead-text'>
-								Looking to partner with us? Reach out to
-								president.uhapm@gmail.com{' '}
+								Looking to partner with us? Reach out to{' '}
+								<a href='mailto:president.uhapm@gmail.com'>
+									president.uhapm@gmail.com
+								</a>
+								.
 							</p>
 						</div>
 					</Col>

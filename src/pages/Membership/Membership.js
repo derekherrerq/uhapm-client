@@ -131,22 +131,47 @@ const Membership = () => {
 					</Col>
 					<Col md='6' className='order-md-0'>
 						<div className='membership'>
-							<h1>Membership</h1>
+							<h1 style={{ textAlign: 'center' }}>Membership</h1>
 							<div className='lead-text'>
 								<p>
-									The Association of Product Managers aims to advance members’
-									careers through numerous workshops, information sessions, and
+									The Association of Product Managers (APM) aims to advance
+									members’ careers through workshops, information sessions, and
 									collaborative challenges. Students are empowered to tackle
-									diverse problems faced by businesses and consumers,
-									encouraging curiosity and teamwork. Together, these
-									initiatives inspire members to build exciting products and
-									explore product, program, and project management across
-									various industries.
+									real-world problems faced by businesses and consumers,
+									fostering curiosity, creativity, and teamwork. These
+									initiatives help members explore careers in product, program,
+									and project management across a wide range of industries.
+								</p>
+								<p>
+									While <b>everyone is welcome to attend all our events</b>,
+									only <b>paid members</b> may participate in our{' '}
+									<b>semester-long product project</b>. This 8-week experience
+									gives members the opportunity to either:
+								</p>
+								<ul>
+									<li>
+										<b>Work with a real client</b> to improve or enhance an
+										existing product, or
+									</li>
+									<li>
+										<b>Build a brand-new product</b> from scratch — similar to a
+										startup — based on a student-identified problem or
+										opportunity.
+									</li>
+								</ul>
+								<p>
+									The project culminates in a <b>final showcase</b> at the end
+									of the semester, providing meaningful hands-on product
+									experience and a strong portfolio addition.
 								</p>
 								<p>
 									Memberships are priced at <b>$35 for a full year</b> or{' '}
-									<b>$20 for a semester.</b> If you have any questions regarding
-									membership, contact president.uhapm@gmail.com
+									<b>$20 for a semester</b>. If you have any questions regarding
+									membership, contact{' '}
+									<a href='mailto:president.uhapm@gmail.com'>
+										president.uhapm@gmail.com
+									</a>
+									.
 								</p>
 							</div>
 						</div>

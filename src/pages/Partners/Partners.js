@@ -39,8 +39,11 @@ const Partners = () => {
 								build build strong, lasting relationships.
 							</p>
 							<p className='lead-text'>
-								If you&apos;re interested in partnering, reach out to
-								president.uhapm@gmail.com for more information!
+								If you&apos;re interested in partnering, reach out to{' '}
+								<a href='mailto:president.uhapm@gmail.com'>
+									president.uhapm@gmail.com
+								</a>{' '}
+								for more information!
 							</p>
 						</div>
 					</Col>
