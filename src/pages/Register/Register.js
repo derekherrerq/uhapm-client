@@ -14,11 +14,14 @@ const Register = () => {
 		<div className='form'>
 			<MetaData {...meta} />
 			<iframe
-				title='Register Form'
-				src='https://docs.google.com/forms/d/e/1FAIpQLSdMZi_1DshKgzu6Of9AJOQpfSdCwGeanaKy89YH_jOJbTQ49w/viewform?embedded=true'
-			>
-				Loading…
-			</iframe>
+				className='airtable-embed'
+				src='https://airtable.com/embed/appVWGZYsrGejgqV6/pagM4TqsbAlUk79PL/form'
+				frameBorder='0'
+				width='100%'
+				height='533'
+				title='Registration Form'
+				style={{ background: 'transparent', border: '1px solid #ccc' }}
+			></iframe>
 			<Suspense fallback={<Loading />}></Suspense>
 		</div>
 	);
