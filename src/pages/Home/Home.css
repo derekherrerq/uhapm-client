@@ -1,67 +1,101 @@
 .banner-wrapper {
 	position: relative;
-	width: 100vw;
-	height: calc(100vh - 100px);
-	overflow: hidden;
-  }
-  
-  .banner {
-	background: url('../../assets/pages/banner.svg') no-repeat center 0 / cover;
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	position: absolute;
-	z-index: -2;
-  }
-  
-  .textbanner {
-	background: url('../../assets/pages/textbanner.svg') no-repeat center center / cover;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	position: absolute;
-	z-index: -1;
-	animation: fade-up 2.5s;
-	transform-origin: center center; /* Ensures scaling happens from center */
-  }
-  
-  /* ✅ Shrink .textbanner on smaller screens */
-  @media (max-width: 768px) {
-	.textbanner {
-	  transform: scale(0.8);
+   width: 100vw;
+   height: calc(100vh - 100px);
+   overflow: hidden;
 	}
-  }
-  
-.main-text {
-	color: white;
-	position: absolute;
-	margin: auto;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	z-index: 999;
-}
-
-@keyframes fade-up {
+   .banner {
+   background: url('../../assets/pages/banner.svg') no-repeat center 0 / cover;
+   margin: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   z-index: -2;
+	}
+   .textbanner {
+   background: url('../../assets/pages/textbanner.svg') no-repeat center center / contain; /* Changed to contain by default */
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   z-index: -1;
+   transform-origin: center center; /* Ensures scaling happens from center */
+   opacity: 0; /* Start invisible */
+	}
+   
+   /* Default scale for mobile - now 2x bigger */
+   .textbanner {
+	 transform: scale(2); /* Changed from 0.8 to 1.6 (2x bigger) */
+   }
+   
+   /* Original scale for desktop */
+   @media (min-width: 769px) {
+	 .textbanner {
+	   transform: scale(1);
+	 }
+   }
+   
+   /* Apply animation separately */
+   .textbanner {
+	 animation: fade-up-banner 2.5s forwards;
+   }
+   
+   .main-text {
+   color: white;
+   position: absolute;
+   margin: auto;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   z-index: 999;
+   }
+   
+   /* Separate animations for different screen sizes */
+   @keyframes fade-up-banner {
+	 0% {
+	   opacity: 0;
+	   transform: translateY(30px) scale(2); /* Changed to match new scale */
+	 }
+	 100% {
+	   opacity: 1;
+	   transform: translateY(0px) scale(2); /* Changed to match new scale */
+	 }
+   }
+   
+   @media (min-width: 769px) {
+	 @keyframes fade-up-banner {
+	   0% {
+		 opacity: 0;
+		 transform: translateY(30px) scale(1);
+	   }
+	   100% {
+		 opacity: 1;
+		 transform: translateY(0px) scale(1);
+	   }
+	 }
+   }
+   
+   /* Original fade-up for other elements if needed */
+   @keyframes fade-up {
 	0% {
-		opacity: 0;
-		transform: translateY(30px) scale(0.9);
+   opacity: 0;
+   transform: translateY(30px) scale(0.9);
 	}
 	100% {
-		opacity: 1;
-		transform: translateY(0px) scale(1);
+   opacity: 1;
+   transform: translateY(0px) scale(1);
 	}
-}
+   }
