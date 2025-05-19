@@ -29,8 +29,16 @@
 	position: absolute;
 	z-index: -1;
 	animation: fade-up 2.5s;
-  }  
-
+	transform-origin: center center; /* Ensures scaling happens from center */
+  }
+  
+  /* ✅ Shrink .textbanner on smaller screens */
+  @media (max-width: 768px) {
+	.textbanner {
+	  transform: scale(0.8);
+	}
+  }
+  
 .main-text {
 	color: white;
 	position: absolute;
