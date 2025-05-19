@@ -12,7 +12,8 @@ const Home = () => {
 	return (
 		<>
 			<MetaData {...meta}></MetaData>
-			<div className='banner'>
+			<div className='banner-wrapper'>
+				<div className='banner'></div>
 				<div className='textbanner'></div>
 			</div>
 		</>
