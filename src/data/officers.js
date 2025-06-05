@@ -1,10 +1,11 @@
 import DerekHerrera from '../assets/officers/Derek-Herrera.png';
 import AmberKaul from '../assets/officers/Amber-Kaul.png';
 import OyinOjo from '../assets/officers/Oyin-Ojo.JPG';
+import MostaqueTahamid from '../assets/officers/Mostaque-Tahamid.png';
 import AllisonOsuagwu from '../assets/officers/Allison-Osuagwu.png';
 import PayalNaik from '../assets/officers/Payal-Naik.png';
 
-import placeholder from '../assets/officers/Placeholder.jpg';
+// import placeholder from '../assets/officers/Placeholder.jpg';
 
 export const officersFall2024 = [
 	{
@@ -40,7 +41,7 @@ export const officersFall2024 = [
 	{
 		id: 3,
 		name: 'Mostaque Tahamid',
-		image: placeholder,
+		image: MostaqueTahamid,
 		linkedin: 'https://www.linkedin.com/in/mostaquetahamid/',
 		email: 'mailto:finance.uhapm@gmail.com',
 		title: 'Finance Director',
