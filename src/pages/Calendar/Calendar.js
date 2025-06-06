@@ -1,12 +1,12 @@
 import React from 'react';
 import { MetaData } from '../../components/Meta/MetaData';
-import './Event.css';
+import './Calendar.css';
 
 const Events = () => {
 	const meta = {
-		title: 'Events - APM',
-		desc: 'Checkout our events.',
-		url: 'https://uhapm.org/events',
+		title: 'Calendar - APM',
+		desc: 'Checkout our calendar.',
+		url: 'https://uhapm.org/calendar',
 	};
 
 	return (

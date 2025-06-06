@@ -10,7 +10,7 @@ const Footer = lazy(() => import('./components/Footer/Footer'));
 const ScrollTop = lazy(() => import('./components/ScrollTop/ScrollTop'));
 const About = lazy(() => import('./pages/About/About'));
 const Membership = lazy(() => import('./pages/Membership/Membership'));
-const Events = lazy(() => import('./pages/Events/Events'));
+const Calendar = lazy(() => import('./pages/Calendar/Calendar'));
 const Home = lazy(() => import('./pages/Home/Home'));
 const Register = lazy(() => import('./pages/Register/Register'));
 const Partners = lazy(() => import('./pages/Partners/Partners'));
@@ -31,7 +31,7 @@ const App = () => {
 						<Route path='/about' element={<About />} />
 						<Route path='/partners' element={<Partners />} />
 						<Route path='/register' element={<Register />} />
-						<Route path='/events' element={<Events />} />
+						<Route path='/calendar' element={<Calendar />} />
 						<Route path='/membership' element={<Membership />} />
 						<Route path='/404' element={<NotFound />} />
 						<Route path='*' element={<FourOFour />} />
